@@ -27,6 +27,6 @@ key = int(input("Enter the key to be searched:"))
 result = binary_search(array, key)
 
 if result != -1:
-    print("Element found at the index:",result + 1)
+    print("Element found at the index:",result)
 else:
     print("Element not found")
