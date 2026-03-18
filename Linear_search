@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def linear_search(arr, key):
     for i in range(n):
         if arr[i] == key:
@@ -21,4 +22,29 @@ result = linear_search(arr, key)
 if result != -1:
     print(f"Element found at the index {result}")
 else:
+=======
+def linear_search(arr, key):
+    for i in range(n):
+        if arr[i] == key:
+            return i
+    return -1
+
+# main program
+
+n = int(input("Enter number of element:"))
+arr = []
+
+print("Enter the elements:")
+for i in range(n):
+    num = int(input())
+    arr.append(num)
+
+key = int(input("Enter the key to be searched:"))
+
+result = linear_search(arr, key)
+
+if result != -1:
+    print(f"Element found at the index {result}")
+else:
+>>>>>>> 4343a3fb3895dfc01afd1d08d3ddc2b57a997ba3
     print("Element not found")
